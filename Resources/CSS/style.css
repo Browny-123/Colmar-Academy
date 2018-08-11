@@ -40,7 +40,19 @@ body {
 a {
   text-decoration: none;
 }
-
+h2 {
+  font-family: Catamaran;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+h4 {
+  font-family: Arimo;
+  font-size: 1.3rem;
+}
+p {
+  font-family: Prompt;
+  font-size: 1rem;
+}
 /*header*/
 header {
   position: fixed;
@@ -165,9 +177,6 @@ h1 {
   width: 100%;
 }
 .second-left-text h2 {
-  font-family: Catamaran;
-  font-weight: bold;
-  font-size: 2.2rem;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
@@ -207,18 +216,35 @@ h1 {
 }
 /*Third Banner */
 .third-banner {
-  padding: 2rem 4.5rem;
+  padding: 2rem 3.5rem;
+  background-color: #BCCBD3;
 }
 .third-heading {
   text-align: center;
+  margin-bottom: 2rem;
 }
-.third-main {
+.top-line,
+.bottom-line {
   display: flex;
+  width: 100%;
+}
+.top-line {
+  margin-bottom: 2rem;
 }
 .third-boxes {
-  padding: 0 2rem;
+  padding: 0 1rem;
   width: 30%;
 }
-.third-image {
+.third-image img {
+  display: block;
   width: 100%;
+}
+.third-text {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  background-color: #E4E9ED;
+}
+.third-text p {
+  padding-top: 0.5rem;
 }
