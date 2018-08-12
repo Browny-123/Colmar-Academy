@@ -39,6 +39,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 h2 {
   font-family: Catamaran;
@@ -47,7 +48,7 @@ h2 {
 }
 h4 {
   font-family: Arimo;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 p {
   font-family: Prompt;
@@ -169,22 +170,22 @@ h1 {
   padding-left: 1.5rem;
   background-color: #E4E9ED;
 }
-.second-left {
+.left {
   width: 60%;
   margin-right: 1.5rem;
 }
-.second-left .image {
+.left .image {
   width: 100%;
 }
-.second-left-text h2 {
+.left-text h2 {
   padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
-.second-left-text p {
+.left-text p {
   padding-bottom: 1.5rem;
   font-family: Catamaran;
 }
-.second-right {
+.right {
   width: 40%;
 }
 .Article {
@@ -211,40 +212,78 @@ h1 {
 .main-info h3 {
   font-size: 1.8rem;
 }
-.Article:last-child {
+.right .Article:nth-child(0n + 3) {
   background-color: #BCCBD3;
+
+
 }
 /*Third Banner */
 .third-banner {
   padding: 2rem 3.5rem;
   background-color: #BCCBD3;
 }
-.third-heading {
+.heading {
   text-align: center;
   margin-bottom: 2rem;
 }
 .top-line,
 .bottom-line {
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 .top-line {
   margin-bottom: 2rem;
 }
 .third-boxes {
-  padding: 0 1rem;
-  width: 30%;
+  margin: 0 1rem;
+  width: 33.33%;
+  background-color: #E4E9ED;
 }
 .third-image img {
   display: block;
   width: 100%;
 }
 .third-text {
-  padding-left: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
-  background-color: #E4E9ED;
+  padding: 1rem 1rem 1.5rem;
 }
 .third-text p {
   padding-top: 0.5rem;
+}
+/*Fourth Banner*/
+.fourth-main {
+  padding: 0 0 2rem 1.5rem;
+  display: flex;
+}
+.fourth-banner .heading {
+  padding-top: 2rem;
+}
+.fourth-banner {
+  background-color: #E4E9ED;
+}
+.image video {
+  width: 100%;
+}
+.fourth-text h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.fourth-text p {
+  line-height: 1.1rem;
+}
+#nth:first-child {
+  background-color: #BCCBD3;
+}
+/*footer */
+
+footer {
+  display: flex;
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  border-top: 0.5px solid #BCCBD3;
+  background-color: #E4E9ED;
+  font-family: Prompt;
+  font-size: 0.8rem;
+}
+.footer {
+  flex: 1;
 }
