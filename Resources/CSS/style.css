@@ -106,7 +106,7 @@ header {
 .mobile {
   display: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 450px) {
   .navbar {
     display: none;
   }
@@ -169,7 +169,7 @@ h1 {
 .button:hover {
   background-color: #2E3E6B;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 450px) {
   .main-banner {
     flex-direction: column;
     padding: 0;
@@ -182,6 +182,12 @@ h1 {
     margin: 0;
     padding: 2rem 1rem;
     max-height: 100%;
+  }
+  .banner-info h1 {
+    font-size: 2.3rem;
+  }
+  .banner-info h2 {
+    padding: 2rem 0 1.5rem;
   }
 }
 /*Second Banner */
@@ -235,8 +241,50 @@ h1 {
 }
 .right .Article:nth-child(0n + 3) {
   background-color: #BCCBD3;
-
-
+}
+.mobile-image {
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  .second-banner {
+    padding: 0;
+  }
+  .second-banner .left {
+    display: none;
+  }
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+    width: 100%;
+  }
+  .small-image {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .Article {
+    border: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-info {
+    width: 100%;
+  }
+  .second-banner h3 {
+    padding-top: 1rem;
+  }
+  .pad {
+    padding-bottom: 3rem;
+  }
+  .padding {
+    padding-bottom: 2rem;
+  }
+  .right .Article:nth-child(0n + 3) {
+    background-color: #E4E9ED;
+  }
 }
 /*Third Banner */
 .third-banner {
@@ -271,6 +319,37 @@ h1 {
 .third-text p {
   padding-top: 0.5rem;
 }
+@media only screen and (max-width: 450px) {
+  .third-image,
+  .third-main p {
+    display: none;
+  }
+  .third-banner {
+    padding: 2rem 1rem;
+  }
+  .top-line,
+  .bottom-line {
+    flex-direction: column;
+  }
+  .third-text {
+    width: 100%;
+  }
+  .third-boxes {
+    width: 100%;
+    margin: 0;
+    background-color: #BCCBD3;
+  }
+  .third-text {
+    margin-bottom: 0.5rem;
+    background-color: #E4E9ED;
+  }
+  .margin-correct {
+    margin-bottom: 0;
+  }
+  .top-line {
+    margin-bottom: 0;
+  }
+}
 /*Fourth Banner*/
 .fourth-main {
   padding: 0 0 2rem 1.5rem;
@@ -296,6 +375,22 @@ h1 {
 #nth:first-child {
   background-color: #BCCBD3;
 }
+@media only screen and (max-width: 450px) {
+  .fourth-banner .right,
+  .fourth-text {
+    display: none;
+  }
+  .heading {
+    margin-bottom: 1rem;
+  }
+  .fourth-main {
+    padding: 0;
+  }
+  .left {
+    width: 100%;
+    margin: 0 0 1.5rem;
+  }
+}
 /*footer */
 
 footer {
@@ -312,8 +407,11 @@ footer {
 footer a:hover {
   color: #2E3E6B;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 450px) {
   footer nav {
     display: none;
+  }
+  footer {
+    padding: 1rem 1rem;
   }
 }
