@@ -106,7 +106,7 @@ header {
 .mobile {
   display: none;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
   .navbar {
     display: none;
   }
@@ -169,7 +169,7 @@ h1 {
 .button:hover {
   background-color: #2E3E6B;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
   .main-banner {
     flex-direction: column;
     padding: 0;
@@ -245,7 +245,7 @@ h1 {
 .mobile-image {
   display: none;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
   .second-banner {
     padding: 0;
   }
@@ -319,7 +319,7 @@ h1 {
 .third-text p {
   padding-top: 0.5rem;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
   .third-image,
   .third-main p {
     display: none;
@@ -375,7 +375,7 @@ h1 {
 #nth:first-child {
   background-color: #BCCBD3;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
   .fourth-banner .right,
   .fourth-text {
     display: none;
@@ -407,7 +407,7 @@ footer {
 footer a:hover {
   color: #2E3E6B;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
   footer nav {
     display: none;
   }
