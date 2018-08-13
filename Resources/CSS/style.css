@@ -319,6 +319,28 @@ h1 {
 .third-text p {
   padding-top: 0.5rem;
 }
+@media only screen and (min-width: 640px) and (max-width: 785px) {
+  .top-line,
+  .bottom-line {
+    flex-direction: column;
+  }
+  .third-boxes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .third-image {
+    width: 55%;
+  }
+  .third-text {
+    width: 45%;
+  }
+  .top-line {
+    margin-bottom: 0;
+  }
+}
 @media only screen and (max-width: 640px) {
   .third-image,
   .third-main p {
