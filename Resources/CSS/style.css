@@ -319,7 +319,7 @@ h1 {
 .third-text p {
   padding-top: 0.5rem;
 }
-@media only screen and (min-width: 640px) and (max-width: 785px) {
+@media only screen and (min-width: 640px) and (max-width: 880px) {
   .top-line,
   .bottom-line {
     flex-direction: column;
